@@ -24,7 +24,7 @@
 }
 
 .header .sub-title{
-    color: #17181C;
+    color: #EAEBED;
     font-size: 1em;
     text-align: center;
     font-weight: 700;
@@ -112,6 +112,7 @@
 .especfication-item{
     text-align: start;
     font-size: 0.9em;
+    color: #EAEBED;
 }
 
 .item-b-title{
@@ -121,7 +122,8 @@
 
 .card-weather-btn{
     margin: 20px 0 10px 0;
-    padding: 5px 3px;
+    width: 40%;
+    height: 40px;
     border: none;
     border-radius: 5px;
     font-weight: 400;
@@ -129,15 +131,17 @@
     color: #EAEBED;
     background-color: #3258f3;
     cursor: pointer;
-    transition: 200ms;
-    box-shadow: 0 1px 7px 1px  #ffffff;
+    transition: 200ms ease-out;
+}
+
+.card-weather-btn:active{
+   transform: scale(0.99);
+   background-color: #17181C;
 }
 
 .card-weather-btn:hover{
-    background-color: #3b3b3b;
-    transition: 200ms;
-    transform: scale(1.05);
-}
+    background-color: #17181C;
+ }
 
 @media screen and (min-width: 480px){
 
